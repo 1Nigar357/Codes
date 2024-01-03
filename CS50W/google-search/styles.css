@@ -1,0 +1,57 @@
+.search{
+    width: 550px;
+    height: 43px;
+    border-color: grey;
+    border-style:solid;
+    border-radius: 30px;
+    padding-inline: 10px;
+    padding-bottom: 5px;
+}
+
+
+.input{
+    padding-top: 5px;
+    width: 470px;
+    border: none;
+    border-color: none;
+}
+
+button
+{
+    border-color: white;
+}
+
+input, button{
+    border:0;
+}
+
+input:focus{
+    outline:0;
+}
+
+
+a {
+    text-decoration: none;
+    color: grey;
+}
+
+body {
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+    font-size: 81.25%;
+  }
+
+
+  p
+  {
+    color: black;
+  }
+
+  span
+  {
+    color: #4487f6;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    position: absolute;
+    bottom: 30rem;
+    right: 215px;
+    white-space: nowrap;
+}
