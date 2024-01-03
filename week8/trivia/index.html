@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <script src = "functions.js"></script>
+        <title>Trivia!</title>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <!-- TODO: Add multiple choice question here -->
+                    <h3>What is the name of Harvard University's computer science course?</h3>
+                <p>
+                        <button onclick="error('red', 0);"> CS49 </button>
+                        <button onclick="error('green', 1);"> CS50 </button>
+                        <button onclick="error('red', 2);"> CS51 </button>
+                        <button onclick="error('red', 3);"> CS52</button>
+                        <button id="hi" onclick="error('red', 4);"> CS53 </button>
+                </p>
+                <p id="text"> </p>
+            </div>
+
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <!-- TODO: Add free response question here -->
+                <h3>Which programming language CS50 students are introduced to initially in CS50?</h3>
+                    <input class="name" placeholder="Name of the Programming Language" type="text">
+                    <button onclick="check();"> Check Answer </button>
+                <p id="text2"></p>
+            </div>`
+        </div>
+    </body>
+</html>

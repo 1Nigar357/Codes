@@ -1,0 +1,35 @@
+{% extends "layout.html"%}
+
+{% block title %}
+    Index
+{% endblock %}
+
+{% block main %}
+    <main class="container py-5 text-center">
+        <h5><b> Total:</b> {{ total | usd }} </h5>
+        <h5><b> Current Cash balance:</b> {{ cash | usd }} </h5>
+
+        <table class="table table-hover mt-5">
+            <thead>
+                <tr>
+                    <th>Symbol</th>
+                    <th>Name</th>
+                    <th>Shares</th>
+                    <th>Price</th>
+                    <th>Total Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for stock in stocks%}
+                <tr>
+                    <td>{{ stock["symbol"] }}</td>
+                    <td>{{ stock["name"] }}</td>
+                    <td>{{ stock["shares"] }}</td>
+                    <td>{{ stock["price"] | usd }}</td>
+                    <td>{{ stock["total_price"] | usd }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </main>
+{% endblock %}

@@ -1,0 +1,180 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+}
+
+.logo
+{
+   color: white;
+   font-weight: 1000;
+   text-decoration: none;
+   font-size: 1.3em;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+}
+
+
+.text
+{
+  margin-bottom: 2rem;
+  padding: 7rem 1rem;
+  width: 90%;
+  height: 100%;
+}
+
+
+h1
+{
+  text-align: center;
+  font-size: 78px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  margin-top: 120px;
+}
+
+h2
+{
+  font-size: 40px;
+  padding-left: 120px;
+  letter-spacing: 2px;
+}
+
+.weight1
+{
+  font-weight: bold;
+  color: #000493;
+}
+
+.weight2
+{
+  font-weight: bold;
+  color: #0005C9;
+}
+
+.weight3
+{
+  font-weight: bold;
+  color: #0007FF;
+}
+
+.float-container {
+  padding: 20px;
+}
+
+.float-child1 {
+  width: 30%;
+  float: left;
+  padding: 20px;
+}
+
+.float-child2 {
+  margin-top: 10%;
+  width: 70%;
+  float: left;
+  padding: 20px;
+}
+
+
+.purplish
+{
+  background-color: mediumorchid;
+}
+
+.greenish
+{
+  background-color: greenyellow;
+}
+
+.orange
+{
+  background-color: orange;
+}
+
+.purplish-txt
+{
+  color: mediumorchid;
+}
+
+.greenish-txt
+{
+  color: chartreuse;
+}
+
+.orange-txt
+{
+  color: orange;
+}
+
+
+.circle-img-frame
+{
+  width: 47%;
+  border-radius: 1000px;
+  border-color: chartreuse;
+  border-width: 5px;
+}
+
+#small
+{
+  font-size: 58px;
+}
+
+.bckg
+{
+  background-color: ivory;
+}
+
+.gold
+{
+  background-color: gold;
+}
+
+.gold-txt
+{
+  color: gold;
+}
+
+.smaller
+{
+  font-size: 25px;
+}
+
+
+/* MEDIA */
+@media only screen and (max-width: 600px)
+{
+  h1
+  {
+    font-size: 34px;
+  }
+
+  .float-child1 {
+    width: 100%;
+    float: none;
+    padding: 20px;
+  }
+
+  .float-child2
+  {
+    width: 100%;
+    float: none;
+    /* visibility: hidden; */
+  }
+
+  h2
+  {
+    font-size: 18px;
+    margin-left: -40%;
+  }
+
+
+  #smallerImg
+  {
+    width: 87%;
+  }
+}

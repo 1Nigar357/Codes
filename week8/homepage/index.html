@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+        <link rel="icon" type="image/x-icon" href="images/happy-emoji.webp">
+        <link href="styles.css" rel="stylesheet">
+        <title>My Webpage</title>
+    </head>
+    <body>
+      <nav class="navbar navbar-dark bg-primary fixed-top ">
+        <div class="container-fluid">
+          <a class="navbar-brand logo" href="#">Nigar's Website</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-primary" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title logo" id="offcanvasDarkNavbarLabel">Nigar's Website</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="accomplishments.html">Accomplisments</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Interactive-Web-Page.html">Interactive Web Page</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div>
+        <h1>Welcome To My Website</h1>
+      </div>
+
+      <div class="float-container">
+        <div class="float-child1 ">
+          <div>
+            <img id="smallerImg" src="https://i.pinimg.com/originals/86/9e/7b/869e7bf9d1fd29adbe4190ac4168d709.gif" alt="emoji">
+          </div>
+        </div>
+        <div class="float-child2 text">
+          <div>
+            <h2 class= "weight1"> Hi. I'm <span class="typing1"></span></h2>
+            <h2 class= "weight2"> Hi. I'm <span class="typing2"></span></h2>
+            <h2 class= "weight3"> Hi. I'm <span class="typing3"></span></h2>
+          </div>
+        </div>
+      </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+      <script src="functions.js"></script>
+    </body>
+</html>

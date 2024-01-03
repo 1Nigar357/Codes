@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Add Word
+{% endblock %}
+
+{% block main %}
+    <br>
+    <br>
+    <div>
+       <form action="/addWordDict" method="post">
+            <div class="mb-3">
+                <input class="form-control mx-auto w-auto" autocomplete="off" name="word" placeholder="Word" type="text" required>
+            </div>
+            <button class="btn btn-primary" type="submit">Add The Word To The Vocabulary</button>
+        </form>
+    </div>
+{% endblock %}
